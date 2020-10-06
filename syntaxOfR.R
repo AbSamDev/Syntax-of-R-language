@@ -30,6 +30,13 @@ rm(a)
 #to all variable on workspace
 rm(list = ls())
 
+# Use of built in class function
+# class gives type of variable
+B=4
+print(class(B)) # B is a numeric
+C= 5L
+print(paste('The type of C is',class(C))) # C is integer
+
 #adding to vectors mean array
 
 v <- c(2, 0, 4, 1)
@@ -87,6 +94,8 @@ d <- 1:8
 a <- 4
 b <- a %in% d
 print(b)
+
+
 
 #Multiply matrix with its transpose
 ma = matrix( c(1,2,3,4,5,6), nrow = 2,ncol = 3,byrow = TRUE)  #making matrix
@@ -169,6 +178,21 @@ list1 <- list(c(11,12,13,14), "zahid", sin, 2)
 print(list1[[1]])           #printin first index data that is array
 print(list1[[1]][2])        #printing the 2nd element of array
 
+
+#fabnocci Series
+arr[1]<-1
+arr[2]<-1
+fabnochi <- function(n){
+  print(arr[1])
+  print(arr[2])
+  for (v in 3:n){
+    arr[v]<-arr[v-1]+arr[v-2]
+    print(arr[v])
+  }
+}
+fabnochi(10)
+
+
 #creat matrix
 ma <- matrix(c(2,3,4,5,6,7), nrow = 2,ncol = 3, byrow = TRUE)
 print(ma)
@@ -205,6 +229,11 @@ v <- 1:5
 for (i in v) {
   arr[i] <- readline(prompt = "enter value: ")
 }
+
+#sum of all elements of one array
+f<-c(4,0,3,1,2)
+sum_G<<-sum(f)
+print(sum_G)
 
 #printing multiple strings
 

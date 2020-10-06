@@ -242,3 +242,16 @@ print(result)
 # Justfy string with center.
 result <- format("Hello", width = 8, justify = "c")
 print(result)
+
+
+#factorial
+
+factn<-function(n){
+  f<-1
+  for(i in 1:n){
+    f=f*i
+  }
+  print (f)
+}
+n=0
+factn(n)

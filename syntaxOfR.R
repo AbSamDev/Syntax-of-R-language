@@ -284,3 +284,11 @@ factn<-function(n){
 }
 n=0
 factn(n)
+
+
+
+
+#The New York Stock Exchange is an American stock exchange at 11 Wall Street
+# in the Financial District of Lower Manhattan in New York City.
+# It is by far the world's largest stock exchange by market capitalization 
+#of its listed companies at US$30.1 trillion as of February 2018.

@@ -9,6 +9,7 @@ print(a)
 #printing multiple data types
 cat("value of a: ", a, "value of b: ", b)
 
+
 #check data type of variable a
 
 print(class(a))
@@ -285,6 +286,12 @@ factn<-function(n){
 n=0
 factn(n)
 
+
+### CSV file ###
+### for example we have file name "input.csv" ###
+### It will read and store as following ###
+CSV_data <- read.csv("input.csv")
+print(CSV_data)
 
 
 
